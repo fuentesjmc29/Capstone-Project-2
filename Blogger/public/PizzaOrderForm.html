@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pizza Order Form</title>
+    <style>
+        .page {
+        width: 500px;
+        margin: auto;
+        padding: 10px;
+        }
+    </style>
+</head>
+<body class="page">
+    <main>
+        <h1>Pizza Order Form</h1>
+        <img src="../assets/images/pizza.gif" alt="A delicious slice of pizza that is about to be served">
+        <hr>
+        <h2>Please fill out the form below</h2>
+        <form action="https://BebongPizza.com/order-form">
+            <section>
+                <!-- Personal details -->
+                <h3>Personal details:</h3>
+                <label for="fname">First Name: <input type="text" id="fname" name="fname" required style="margin-bottom:5px"></label><br>
+                <label for="lname">Last Name: <input type="text" id="lname" name="lname" required style="margin-bottom:5px"></label><br>
+                <label for="email_address">Email Address: <input type="email" id="email_address" name="email_address" required style="margin-bottom:5px"></label><br>
+                <label for="number">Mobile Number: <input type="tel" id="number" name="number" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="04XX-XXX-XXX" required></label><br>
+            </section>
+            <hr>
+            <section>
+                <!-- Size of pizza -->
+                <h3>Pizza size:</h3>
+                <label><input type="radio" id="small" name="size" value="small"> Small</label>
+                <label><input type="radio" id="medium" name="size" value="medium" checked> Medium</label>
+                <label><input type="radio" id="large" name="size" value="large"> Large</label> 
+            </section>
+            <hr>
+            <section>
+                <!-- Flavor of pizza and quantity -->
+                <h3>Pizza flavor:</h3>
+                <label for="hawaiian"><input type="checkbox" id="hawaiian" checked> Hawaiian (Php 150.00)</label>
+                <select name="hawaiian" id="hawaiian">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select><br>
+                <label for="pepperoni"><input type="checkbox" id="pepperoni"> Pepperoni (Php 140.00)</label>
+                <select name="pepperoni" id="pepperoni">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                </select><br>
+                <label for="vegetable"><input type="checkbox" id="vegetable"> Vegetable (Php 130.00)</label>
+                <select name="vegetable" id="vegetable">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                </select><br>
+                <h3>Delivery:</h3>
+                <label for="delivery">Preferred Date <input type="date" id="delivery" name="delivery" placeholder="mm/dd/yyyy" required style="margin-bottom:5px"></label>
+            </section>
+            <hr>
+            <section>
+                <!-- payment -->
+                <h3>Payment details:</h3>
+                <label for="cc">Credit Card Number: </label><input type="number" id="cc" name="cc" required style="margin-bottom:5px"><br>
+                <label for="pin">PIN: </label><input type="password" id="pin" name="pin" required><br>
+            </section>
+            <hr>
+            <section>
+                <!-- additional note -->
+                <h3><label for="additional-note">Additional Note:</label></h3>
+                <textarea style="resize:none" name="additional-note" id="additional-note" rows="4" cols="30" placeholder="Please write your notes here."></textarea>
+                <br>
+                <input type="submit" value="Submit Order">
+            </section>
+            <hr>
+        </form>
+    </main>
+        <!-- Back to main page -->
+        <p><a href="../blogger.html"><em>Back to main page</em></a></p>
+    </body>
+</html>

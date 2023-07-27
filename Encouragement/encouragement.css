@@ -1,0 +1,52 @@
+html {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+div {
+    width: 410px;
+    margin: auto;
+    margin-top: 20px;
+
+}
+img {
+    border: 5px solid white;
+    height: 390px;
+    width: 390px;
+}
+
+h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+body div p {
+    font-family: 'Inconsolata', monospace;
+    width: 300px;
+    margin: auto;
+    font-size: 20px;
+}
+
+button {
+    border-radius: 9px;
+    border: 0;
+    padding: 5px 10px;
+    margin: 20px 0 10px 0;
+    background-color: rgb(176, 228, 241);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+hr {
+    border: 0.2px solid rgb(196, 193, 193);
+}
+
+footer {
+    font-size: 14px;
+}
+
+

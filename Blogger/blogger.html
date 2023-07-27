@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogger</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body{
+        font-family:roboto;
+        }
+        .page {
+        width: 1000px;
+        margin: auto;
+        padding: 10px;
+        }
+        table {
+        border: 1px solid gray;
+        border-collapse: collapse;
+        background-color: rgb(255, 254, 246);
+        width: 100%;
+        }
+        th, td {
+        border: 1px dotted gray;
+        font-size: 15px;
+        padding:5px;
+        background-color: #eefff9;
+        color: black;
+        }
+        tr {
+        height: 30px;
+        }
+        th {
+        height: 40px;
+        background-color: #04AA6D;
+        color: white;
+        }
+        li{
+        margin-bottom:8px;
+        }
+        footer{
+        font-size:18px; 
+        color:blue; 
+        text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <h1>John's Blog</h1>
+        <h2><p>Greetings! My name is John but you can call me Bebong (because we are friends, right?)</p></h2>
+        <img src="./assets/images/psyduck.gif" alt="my profile photo" height="100" style="margin-bottom:20px">
+        <p>Disclamer: Due to limited budget, this webpage is best viewed in laptop and not in mobile phone.</p>
+        <main>
+            <section><hr>
+                <h3>My work history</h3>
+                <table>
+                    <thead>
+                    <tr>
+                        <th width="72px">Date From</th>
+                        <th width="69x">Date To</th>
+                        <th width="21%">Name of Company</th>
+                        <th width="15%">Type of Business</th>
+                        <th width="26%">Address</th>
+                        <th width="22%">My Occupation</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>May 2023</td>
+                        <td>Present</td>
+                        <td>The Food Revolution Group</td>
+                        <td>Food Manufacturing</td>
+                        <td>Mill Park, Melbourne, Australia</td>
+                        <td>Machine Operator</td>
+                    </tr>
+                    <tr>
+                        <td>Jan 2023</td>
+                        <td>Mar 2023</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                        <td>On visitor visa (Australia)</td>
+                    </tr>
+                    <tr>
+                        <td>Oct 2022</td>
+                        <td>Mar 2023</td>
+                        <td rowspan="2">Spotless Integrated Facilities Services</td>
+                        <td rowspan="2">Outsourced Facilities Services</td>
+                        <td rowspan="2">Wiri, Auckland, New Zealand</td>
+                        <td>Cleaner (Casual)</td>
+                    </tr>
+                    <tr>
+                        <td>May 2022</td>
+                        <td>Sep 2023</td>
+                        <td>Area Cleaning Supervisor</td>    
+                    </tr>
+                    <tr>
+                        <td>May 2022</td>
+                        <td>Mar 2023</td>
+                        <td rowspan="2">North Shore Hospital</td>
+                        <td rowspan="2">Public Hospital</td>
+                        <td rowspan="2">Takapuna, Auckland, New Zealand</td>
+                        <td>Orderly (Casual)</td>    
+                    </tr>
+                    <tr>
+                        <td>Dec 2018</td>
+                        <td>May 2022</td>
+                        <td>Orderly (Permanent)</td>    
+                    </tr>
+                    <tr>
+                        <td>Nov 2018</td>
+                        <td>Dec 2018</td>
+                        <td>Punchbowl Kiwifruit Services</td>
+                        <td>Kiwifruit Orchard</td>
+                        <td>Pukekohe, Auckland, New Zealand</td>
+                        <td>Worker (Seasonal)</td>    
+                    </tr>
+                    <tr>
+                        <td>Oct 2018</td>
+                        <td>Nov 2018</td>
+                        <td>RK and TM Reed</td>
+                        <td>Kiwifruit Orchard</td>
+                        <td>Kumeu, Auckland, New Zealand</td>
+                        <td>Worker (Seasonal)</td>    
+                    </tr>
+                    <tr>
+                        <td>Mar 2018</td>
+                        <td>Oct 2018</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                        <td>N/A</td>
+                        <td>On visitor visa (New Zealand)</td>
+                    </tr>
+                    <tr>
+                        <td>Nov 2014</td>
+                        <td>Feb 2018</td>
+                        <td rowspan="2">Taiyo Yuden (Philippines) Inc.</td>
+                        <td rowspan="2">Electronics Manufacturing</td>
+                        <td rowspan="2">Lapu-lapu City, Cebu, Philippines</td>
+                        <td>Product Engineer (Supervisor)</td>    
+                    </tr>
+                    <tr>
+                        <td>Jul 2010</td>
+                        <td>Nov 2014</td>
+                        <td>Product Engineer</td>    
+                    </tr>
+                    </tbody>
+                </table>
+            </section>
+            <section>
+                <!-- My skills -->
+                <h4>Some of the technical skills I learned as a product engineer</h4>
+                <ul>
+                    <li>Analyse product, process and parameters and drive actions for quality, yield and cost improvements</li>
+                    <li>Evaluation of new product and process conditions from prototyping to mass production</li>
+                    <li>Experimentation, reliability tests, data analysis and technical documentation</li>
+                </ul>
+            </section>
+            <hr>
+            <form action="https://Bebong.com/coding-projects/blogger" method="post">
+            <section>
+                <!-- Ask user if want to learn more about my work experiences. -->
+                <h3>Would you like to learn more about my work experiences?</h3>
+                <input type="radio" id="yes" name="yes-no" value="yes" checked><label for="yes">Yes</label>
+                <input type="radio" id="no" name="yes-no" value="no"><label for="no">Yes of course</label>
+                <p style="margin-bottom: 8px">Please enter your email address:</p>
+                <!-- Asking for email -->
+                <label for="email_address">Email: </label><input type="email" id="email_address" name="email_address" placeholder="type your email address here" size="31" required>
+            </section>
+            <hr>
+            <section>
+                <!-- Ask user what are his/her interest(s) -->
+                <h3>You are interested in other blog content(s):</h3>
+                <input type="checkbox" id="sports" name="sports" value="sports" checked><label for="sports"> Sports</label>
+                <input type="checkbox" id="hobbies" name="hobbies" value="hobbies"><label for="hobbies"> Hobbies</label>
+                <input type="checkbox" id="travel" name="travel" value="travel"><label for="travel"> Travel</label>
+                <input type="checkbox" id="food" name="food" value="food"><label for="food"> Foods</label>
+            </section>
+            <hr>
+            <section>
+                <!-- Ask user if want to receive newsletter -->
+                <h3>If you would like to receive news letter, select what frequency</h3>
+                <label for="frequency">Select frequency:</label>
+                    <select name="frequency" id="frequency">
+                        <option value="weekly">Weekly</option>
+                        <option value="fortnightly">Fortnightly</option>
+                        <option value="monthly">Monthly</option>
+                        <option value="quarterly">Quarterly</option>
+                        <option value="annually">Annually</option>
+                    </select>
+            </section>
+            <hr>
+            <section>
+                <!-- Ask user for comments -->
+                <h3><label for="comments">Please leave your comments below</label></h3><br>
+                <textarea id="comments" name="comments" rows="6" cols="40" style="margin-top:-20px; resize:none" placeholder="You have to write your comments here ^^,"></textarea><br>
+                <!-- Submit button --> 
+                <input type="submit" value="Submit" style="height:30px; width:90px; color: white; background-color: dodgerblue; border: none; border-radius:6px; font-weight:700; font-size:large; margin:10px 0">
+                <hr>
+            </section>
+            </form>
+            <!-- pizza order form -->
+            <p>Before you go, you may order pizza online to satisfy your hunger. <a href="./public/PizzaOrderForm.html">Order Pizza</a></p>
+        </main>
+        <hr><br>
+        <footer id="footer">Thank you for visiting my blog. Until next time my friend!</footer>
+        <p><a href="#top"><em>Back to top</em></a></p>
+        <!-- text-align:center in anchor tag above is not working. Why? -->
+    </div>
+</body>
+</html>

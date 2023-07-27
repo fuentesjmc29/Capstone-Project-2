@@ -1,0 +1,50 @@
+html {
+    background-color: #fcfcfc;
+}
+
+body {
+    font-family: Arial, Helvetica; 
+    width:800px; 
+    margin:30px auto; 
+    line-height: 2em; 
+    padding:20px"
+}
+
+div {
+    display: inline-block;
+    height: 260px;
+}
+
+.statement {
+    text-align: justify;
+}
+
+#profile-photo {
+    float: right;
+    margin: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 96%;
+    margin: 16px;
+}
+
+th, td {
+    border: 1px solid rgb(177, 174, 174);
+    font-size: 15px;
+    padding:5px;
+    color: black;
+}
+
+th {
+    height: 40px;
+}
+
+tr {
+    height: 30px;
+}
+
+.li_style{
+    list-style-type: circle;
+}
